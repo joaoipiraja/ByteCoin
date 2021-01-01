@@ -15,7 +15,7 @@ protocol ByteCoinManagerDelegate {
 
 class ByteCoinManager{
     
-    private let API_KEY = "488C4737-DC38-4F68-A5F3-236BFDB5CE21"
+    private let API_KEY = ""
     var delegate:ByteCoinManagerDelegate?
     
     func fetchExchangerateData(of coinName:String)  {
