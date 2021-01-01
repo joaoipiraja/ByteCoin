@@ -96,6 +96,11 @@
                             <constraint firstItem="mbh-uz-coh" firstAttribute="top" secondItem="VWZ-Ex-nMq" secondAttribute="top" constant="10" id="zjK-n1-ay8"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lblCoin" destination="qP4-8E-XEt" id="gHZ-Vn-abL"/>
+                        <outlet property="lblValue" destination="qDs-nW-lBo" id="ct5-LM-Lql"/>
+                        <outlet property="pickerAsset" destination="75h-I2-462" id="qwG-X4-k75"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

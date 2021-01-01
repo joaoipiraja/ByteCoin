@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E2D7F7B259E15200068682C /* ByteCoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D7F7A259E15200068682C /* ByteCoinManager.swift */; };
+		4E2D7F88259E52150068682C /* CoinAPI_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D7F87259E52150068682C /* CoinAPI_Data.swift */; };
+		4E2D7F95259F76D20068682C /* ProgressDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D7F94259F76D20068682C /* ProgressDialog.swift */; };
 		4EB19657259D40F900F948C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB19656259D40F900F948C1 /* AppDelegate.swift */; };
 		4EB19659259D40F900F948C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB19658259D40F900F948C1 /* SceneDelegate.swift */; };
 		4EB1965B259D40F900F948C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB1965A259D40F900F948C1 /* ViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E2D7F7A259E15200068682C /* ByteCoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteCoinManager.swift; sourceTree = "<group>"; };
+		4E2D7F87259E52150068682C /* CoinAPI_Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAPI_Data.swift; sourceTree = "<group>"; };
+		4E2D7F94259F76D20068682C /* ProgressDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDialog.swift; sourceTree = "<group>"; };
 		4EB19653259D40F900F948C1 /* ByteCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB19656259D40F900F948C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EB19658259D40F900F948C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +82,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E2D7F6B259E13C30068682C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4EB1965A259D40F900F948C1 /* ViewController.swift */,
+				4E2D7F94259F76D20068682C /* ProgressDialog.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E2D7F6F259E142C0068682C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4EB1965C259D40F900F948C1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E2D7F76259E14520068682C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E2D7F7A259E15200068682C /* ByteCoinManager.swift */,
+				4E2D7F87259E52150068682C /* CoinAPI_Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		4EB1964A259D40F900F948C1 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +131,11 @@
 		4EB19655259D40F900F948C1 /* ByteCoin */ = {
 			isa = PBXGroup;
 			children = (
+				4E2D7F76259E14520068682C /* Model */,
+				4E2D7F6F259E142C0068682C /* View */,
+				4E2D7F6B259E13C30068682C /* Controller */,
 				4EB19656259D40F900F948C1 /* AppDelegate.swift */,
 				4EB19658259D40F900F948C1 /* SceneDelegate.swift */,
-				4EB1965A259D40F900F948C1 /* ViewController.swift */,
-				4EB1965C259D40F900F948C1 /* Main.storyboard */,
 				4EB1965F259D410700F948C1 /* Assets.xcassets */,
 				4EB19661259D410700F948C1 /* LaunchScreen.storyboard */,
 				4EB19664259D410700F948C1 /* Info.plist */,
@@ -258,9 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2D7F95259F76D20068682C /* ProgressDialog.swift in Sources */,
+				4E2D7F7B259E15200068682C /* ByteCoinManager.swift in Sources */,
 				4EB1965B259D40F900F948C1 /* ViewController.swift in Sources */,
 				4EB19657259D40F900F948C1 /* AppDelegate.swift in Sources */,
 				4EB19659259D40F900F948C1 /* SceneDelegate.swift in Sources */,
+				4E2D7F88259E52150068682C /* CoinAPI_Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
